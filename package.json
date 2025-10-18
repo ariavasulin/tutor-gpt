@@ -11,7 +11,8 @@
     "pretty": "prettier --write components/ app/ utils/",
     "sync-stripe": "node scripts/stripeSync.mjs",
     "test:security": "node tests/arcjet/test-bot-protection.js",
-    "test:bot-protection": "node tests/arcjet/test-bot-protection.js"
+    "test:bot-protection": "node tests/arcjet/test-bot-protection.js",
+    "memory-proxy": "node memory-proxy/server.mjs"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^0.2.13",
