@@ -1,0 +1,8 @@
+# Tutor-GPT OpenWebUI Pipe Dependencies
+# Python 3.10+ required
+
+# HTTP client for async communication with memory proxy
+httpx>=0.27.0
+
+# Pydantic for Valves configuration (BaseModel)
+pydantic>=2.0.0
